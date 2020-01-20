@@ -14,3 +14,17 @@ div {
   font-size: large;
   font-weight: bold;
 }
+
+.footer {
+  height: 4rem;
+  background-color: #dddddd5c;
+  position: relative;
+  font-size: 1rem;
+}
+
+.footer p {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
