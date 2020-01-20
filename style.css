@@ -1,0 +1,16 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div {
+  margin: 20px;
+  padding: auto;
+  display: block;
+  background-color: azure;
+}
+
+.tag-name {
+  font-size: large;
+  font-weight: bold;
+}
