@@ -8,6 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <!-- Favicon -->
+  <link rel="icon" href="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/184/full/html5.png" type="image/gif"
+    sizes="16x16">
+
   <title>HTML-TAGS</title>
 
   <!-- Bootstrap core CSS -->
@@ -30,12 +34,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -161,6 +159,7 @@
             </div>
           </li>
 
+          <!-- Styles and Semantics -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -171,9 +170,14 @@
               <a class="dropdown-item" href="#div-tag">&lt;div&gt;&lt;/div&gt;</a>
 
               <a class="dropdown-item" href="#span-tag">&lt;span&gt;&lt;/span&gt;</a>
+
+              <a class="dropdown-item" href="#summary-tag">&lt;summary&gt;&lt;/summary&gt;</a>
+
+              <a class="dropdown-item" href="#ul-tag">&lt;ul&gt;&lt;/ul&gt;</a>
             </div>
           </li>
 
+          <!-- Programing -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -190,9 +194,9 @@
     </div>
   </nav>
 
+
   <!-- Page Content -->
   <div class="container">
-
     <!-- Tag Type -->
     <div class="row align-items-center my-4 bg-info">
       <div class="col" id="Basic_HTML">
@@ -1244,10 +1248,76 @@
       </div>
     </div>
 
+    <!--  summary-tag-->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="summary-tag">
+          <h3 class="tag-name">&lt;summary&gt;&lt;/summary&gt;</h3>
+          <p class="defination">Defines a section in a document</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              <details>
+                <summary>Copyright 1999-2014.</summary>
+                <p> - by Refsnes Data. All Rights Reserved.</p>
+                <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+              </details>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              <details>
+                <summary>Copyright 1999-2014.</summary>
+                <p> - All Rights Reserved.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem.</p>
+              </details>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  ul-tag-->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="ul-tag">
+          <h3 class="tag-name">&lt;ul&gt;&lt;/ul&gt;</h3>
+          <p class="defination">Defines a section in a document</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Tag Type -->
     <div class="row align-items-center my-4 bg-info">
-      <div class="col" id="Basic_HTML">
+      <div class="col" id="Programming_HTML">
         <h2>
           <h2>Programming</h2>
         </h2>
