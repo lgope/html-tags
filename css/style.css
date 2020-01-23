@@ -1,12 +1,21 @@
 body {
-    padding-top: 56px;
-  }
-  
-  xmp {
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  
-    color: brown;
-    white-space: pre-line;
-  }
-  
+  padding-top: 56px;
+}
+
+.dropdown-item {
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(48, 47, 47);
+}
+xmp,
+pre {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+
+  color: brown;
+  white-space: pre-line;
+}
+
+textarea {
+  width: 90%;
+}
