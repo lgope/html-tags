@@ -47,6 +47,8 @@
 
               <a class="dropdown-item" href="#p-tag">&lt;p&gt;&lt;/p&gt;</a>
 
+              <a class="dropdown-item" href="#marquee-tag">&lt;marquee&gt;&lt;/marquee&gt;</a>
+
             </div>
           </li>
 
@@ -174,6 +176,8 @@
               <a class="dropdown-item" href="#summary-tag">&lt;summary&gt;&lt;/summary&gt;</a>
 
               <a class="dropdown-item" href="#ul-tag">&lt;ul&gt;&lt;/ul&gt;</a>
+
+              <a class="dropdown-item" href="#ol-tag">&lt;ol&gt;&lt;/ol&gt;</a>
             </div>
           </li>
 
@@ -291,6 +295,37 @@
             <p>Output:</p>
             <span>
               <p>This is some text in a paragraph.</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- marquee-tag -->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="marquee-tag">
+          <h3 class="tag-name">&lt;marquee&gt;&lt;/marquee&gt;</h3>
+          <p class="defination">Used for scrolling piece of text or image</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee>
+              <marquee behavior="scroll" direction="left" scrollamount="20">Fast Scrolling</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="50">Very Fast Scrolling</marquee>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee>
+              <marquee behavior="scroll" direction="left" scrollamount="20">Fast Scrolling</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="50">Very Fast Scrolling</marquee>
             </span>
           </div>
         </div>
@@ -839,7 +874,7 @@
           <p>Code:</p>
           <div class="code">
             <xmp>
-              <form action="/action_page.php">
+              <form action="">
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="male"><br>
                 <label for="female">Female</label>
@@ -855,7 +890,7 @@
           <div class="output">
             <p>Output:</p>
             <span>
-              <form action="/action_page.php">
+              <form action="">
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="male"><br>
                 <label for="female">Female</label>
@@ -1233,7 +1268,7 @@
           <div class="code">
             <p>Code:</p>
             <xmp>
-              <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+              <p>Someone has <span style="color:blue">blue</span> eyes.</p>
             </xmp>
           </div>
           <hr>
@@ -1241,7 +1276,7 @@
           <div class="output">
             <p>Output:</p>
             <span>
-              <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+              <p>Someone has <span style="color:blue">blue</span> eyes.</p>
             </span>
           </div>
         </div>
@@ -1286,7 +1321,7 @@
       <div class="col col-sm-12 col-md-10 col-lg-12">
         <div id="ul-tag">
           <h3 class="tag-name">&lt;ul&gt;&lt;/ul&gt;</h3>
-          <p class="defination">Defines a section in a document</p>
+          <p class="defination">Defines an unordered list.</p>
 
           <div class="code">
             <p>Code:</p>
@@ -1308,6 +1343,51 @@
                 <li>Tea</li>
                 <li>Milk</li>
               </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  ol-tag-->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="ol-tag">
+          <h3 class="tag-name">&lt;ol&gt;&lt;/ol&gt;</h3>
+          <p class="defination">Defines an ordered list.</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+              <ol start="50">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+              <ol start="50">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
             </span>
           </div>
         </div>
