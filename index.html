@@ -37,6 +37,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
 
+          <!-- Basic HTML -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -56,6 +57,7 @@
             </div>
           </li>
 
+          <!-- Formatting -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -78,6 +80,8 @@
 
               <a class="dropdown-item" href="#del-tag">&lt;del&gt;&lt;/del&gt;</a>
 
+              <a class="dropdown-item" href="#ins-tag">&lt;ins&gt;&lt;/ins&gt;</a>
+
               <a class="dropdown-item" href="#em-tag">&lt;em&gt;&lt;/em&gt;</a>
 
               <a class="dropdown-item" href="#dfn-tag">&lt;dfn&gt;&lt;/dfn&gt;</a>
@@ -89,6 +93,7 @@
             </div>
           </li>
 
+          <!-- Forms and Input -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -112,6 +117,7 @@
             </div>
           </li>
 
+          <!-- Images -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -140,6 +146,7 @@
             </div>
           </li>
 
+          <!-- Links -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -154,6 +161,7 @@
             </div>
           </li>
 
+          <!-- Tables -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -182,6 +190,8 @@
               <a class="dropdown-item" href="#ul-tag">&lt;ul&gt;&lt;/ul&gt;</a>
 
               <a class="dropdown-item" href="#ol-tag">&lt;ol&gt;&lt;/ol&gt;</a>
+
+              <a class="dropdown-item" href="#progress-tag">&lt;progress&gt;&lt;/progress&gt;</a>
             </div>
           </li>
 
@@ -619,6 +629,31 @@
             <p>Output:</p>
             <span>
               <p> My favorite color is <del> blue </del> green! </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  ins-tag-->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="ins-tag">
+          <h3 class="tag-name">&lt;ins&gt;&lt;/ins&gt;</h3>
+          <p class="defination">Defines a text that has been inserted into a document.</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
             </span>
           </div>
         </div>
@@ -1433,6 +1468,35 @@
                 <li>Tea</li>
                 <li>Milk</li>
               </ol>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  progress-tag-->
+    <div class="row align-items-center my-4 bg-light">
+      <div class="col col-sm-12 col-md-10 col-lg-12">
+        <div id="progress-tag">
+          <h3 class="tag-name">&lt;progress&gt;&lt;/progress&gt;</h3>
+          <p class="defination">The tag represents the progress of a task..</p>
+
+          <div class="code">
+            <p>Code:</p>
+            <xmp>
+              Downloading :
+              <progress value="60" max="100">
+              </progress>
+            </xmp>
+          </div>
+          <hr>
+          <br>
+          <div class="output">
+            <p>Output:</p>
+            <span>
+              Downloading :
+              <progress value="60" max="100">
+              </progress>
             </span>
           </div>
         </div>
